@@ -33,8 +33,8 @@ void main (){
 /*
   A final variable can be set only once; a const variable 
   is a compile-time constant. (Const variables are implicitly
-   final.)
-   Note: Instance variables can be final but not const.
+  final.)
+  Note: Instance variables can be final but not const.
  */
   final name = "KM Nehal.";
   print("final name is ${name}");
@@ -53,5 +53,5 @@ void main (){
   const double nmbr = 2.222;
   print(bar);
   print(nmbr);
-
+  
 }
