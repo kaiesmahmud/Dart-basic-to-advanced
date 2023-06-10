@@ -75,6 +75,13 @@ void main(){
   print("x %= y means x = x % y");
   print( x%=y);
 
+//To assign only if the assigned-to variable is null, use the ??= operator.
+int value = 10;
+int? g;
+g ??= value ;
+print(" if g is null then the specific value ${g}");
+
+
 //=========Comparison Operators==========================
 
   print("Equal to ==");
