@@ -16,6 +16,22 @@ void main(){
     print(record2.c);
 
 
+//if type is declare for the record , then it can't be increased
+ (String, int , double) record3 ;
+
+ record3 = ('stringtype',88,23.23); //here, record can hold three types of data as specified !
+ print(record3);
+
+//specific type with variable name of records
+({int a , String b}) record4 ;
+
+// record4 = (10,"name"); --> not work | error
+  record4 = (a:10,b:"some strings");
+  print(record4 );
+  print(record4.a );
+  print(record4.b );
+
+
 
 
 }
